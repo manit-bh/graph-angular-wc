@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
+##This is a custom element created in angular for generating a graph
+We rely on chartjs for graph rendering.
+We listen to inputs in app.component.ts
+In app.module.ts you will find that we are exposing it as a custom element.
+In index.html we are using the same custom element.
+We generate the custom element bundle using build-wc command configured in package.json.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
